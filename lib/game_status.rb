@@ -72,6 +72,7 @@ def won?(board)
     
     if win_count >= 3
       TRUE
+      return win_combo
     end
   end
   
