@@ -56,6 +56,17 @@ def won?(board)
       end
     end
     
+    for o_number in O_combo do
+      for win_number in win_combo do
+        if win_number == o_number
+          win_count+=1
+          puts("Current win_count")
+          puts(win_count)
+        end
+      end
+    end
+    
+    
     if win_count >= 3
       return TRUE
     end
