@@ -62,6 +62,7 @@ def over?(board)
 end
 
 def winner(board)
+  puts won?(board)
   if won?(board)[0] == "X"
     return "X"
   end
