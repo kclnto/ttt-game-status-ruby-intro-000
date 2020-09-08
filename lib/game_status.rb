@@ -54,10 +54,6 @@ def draw?(board)
 end
 
 def over?(board)
-  puts board
-  puts won?(board)
-  puts draw?(board)
-  puts full?(board)
   if won?(board) != FALSE || draw?(board) == TRUE || full?(board) == TRUE
     return TRUE
   else
