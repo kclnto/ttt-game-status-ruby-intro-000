@@ -92,6 +92,8 @@ end
 def draw?(board)
   if (full(board) == TRUE) && (won?(board) == FALSE)
     return TRUE
+  else
+    return FALSE
   end
 end
 
