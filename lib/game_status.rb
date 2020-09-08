@@ -33,6 +33,7 @@ def won?(board)
       return win_combination
     end
   end
+  puts win_combination
   return FALSE
 end
 
