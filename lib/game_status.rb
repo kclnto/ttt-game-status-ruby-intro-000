@@ -26,6 +26,7 @@ def won?(board)
   # puts(board)
   if full?(board) == TRUE && draw?(board) == TRUE
     return FALSE
+  end
   
   for moves_combo in board do
     if moves_combo == "X"
