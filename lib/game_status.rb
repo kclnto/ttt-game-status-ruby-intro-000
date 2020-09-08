@@ -63,6 +63,7 @@ end
 
 def winner(board)
   puts won?(board)
+  puts won?(board)[0] 
   if won?(board)[0] == "X"
     return "X"
   end
