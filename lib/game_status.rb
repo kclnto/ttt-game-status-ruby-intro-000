@@ -60,6 +60,8 @@ def over?(board)
   puts full?(board)
   if won?(board) == TRUE || draw?(board) == TRUE || full?(board) == TRUE
     return TRUE
+  else
+    return FALSE
   end
 end
 
