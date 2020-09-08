@@ -81,11 +81,13 @@ def full?(board)
   board.detect do |empty|
     if empty == " " || empty == nil
       return FALSE
+  return TRUE
     end
   end
 end
 
 def draw?
+  if 
 end
 
 def over?
