@@ -66,6 +66,9 @@ def won?(board)
       end
     end
     
+      if draw?(board) == TRUE
+    return FALSE
+  end
     
     if win_count >= 3
       TRUE
@@ -75,9 +78,6 @@ def won?(board)
   
   # No winning combos detected
   return FALSE
-  if draw?(board) == TRUE
-    return FALSE
-  end
 end
 
 def full?(board)
