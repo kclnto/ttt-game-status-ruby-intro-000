@@ -34,8 +34,7 @@ def won?(board)
 end
 
 def full?(board)
-  for each in board
-    if each == " " || each == nil
+  until each == " " || each == nil
       return FALSE
     end
   end
