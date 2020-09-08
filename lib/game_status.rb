@@ -40,8 +40,6 @@ def full?(board)
   for each in board do
     if each == " " || each == nil
       return FALSE
-    else 
-      return TRUE
     end
   end
 end
