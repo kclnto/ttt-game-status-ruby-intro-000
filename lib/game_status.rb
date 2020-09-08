@@ -64,10 +64,10 @@ def over?(board)
 end
 
 def winner(board)
-  if win_combination[0] == "X"
+  if winner == "X"
     return "X is the winner!"
   end
-  if win_combination[0] == "O"
+  if winner == "O"
     return "O is the winner!"
   end
 end
