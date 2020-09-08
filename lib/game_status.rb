@@ -35,7 +35,7 @@ end
 
 def full?(board)
   until each == " " || each == nil do
-      return FALSE
+      return true
     end
   end
 end
