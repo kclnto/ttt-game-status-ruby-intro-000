@@ -22,8 +22,6 @@ O_combo = []
   
 def won?(board)
   # I want to leave a comment
-  X_combo = []
-  O_combo = []
   myIndex = 0
   # puts(board)
   
