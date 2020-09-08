@@ -24,7 +24,7 @@ def won?(board)
   # I want to leave a comment
   myIndex = 0
   # puts(board)
-  if full?(board) == TRUE && draw?(board) == TRUE
+  if draw?(board) == TRUE
     return FALSE
   end
   
