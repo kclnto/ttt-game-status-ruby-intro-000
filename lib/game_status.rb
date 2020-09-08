@@ -57,7 +57,7 @@ def over?(board)
   puts won?(board)
   puts draw?(board)
   puts full?(board)
-  if won?(board) == TRUE || draw?(board) == TRUE || full?(board) == TRUE
+  if won?(board) == TRUE || draw?(board) == TRUE && full?(board) == TRUE
     return TRUE
   end
 end
