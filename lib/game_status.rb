@@ -66,9 +66,9 @@ def won?(board)
       end
     end
     
-      if draw?(board) == TRUE
-    return FALSE
-  end
+    if draw?(board) == TRUE
+      return FALSE
+    end
     
     if win_count >= 3
       TRUE
