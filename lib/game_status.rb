@@ -24,10 +24,7 @@ def won?(board)
   # I want to leave a comment
   myIndex = 0
   # puts(board)
-  if draw?(board) == TRUE
-    return FALSE
-  end
-  
+
   for moves_combo in board do
     if moves_combo == "X"
       X_combo << myIndex
@@ -78,6 +75,10 @@ def won?(board)
   
   # No winning combos detected
   return FALSE
+  if draw?(board) == TRUE
+    return FALSE
+  end
+  
 end
 
 def full?(board)
